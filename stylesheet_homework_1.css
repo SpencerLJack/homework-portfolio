@@ -1,0 +1,130 @@
+
+.header {
+    text-align: center;
+    font-size: 20px;
+    font-family: "sans-serif";
+    }
+.header li {
+    font-family: "sans-serif";
+    display: inline;
+    list-style: none;
+}
+.header li + li{
+    padding-top: 0px;
+    padding-left: 5px;
+    border-left: 1px solid black;
+    border-color: grey;
+    display: inline;
+}
+
+h1 {
+    font-family: "sans-serif";
+    font-size: 35px;
+    margin: 30px 0px 2px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+hr {
+    height: 1px;
+    color: black;
+    background-color: black;
+    width: 100%;
+    margin: 0px 0px 60px 0px;
+}
+
+
+                    /*<---------------------Body----------------------->*/
+body{
+    width: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black; 
+    margin: 10px 0px 10px 0px;
+}
+
+p {
+    padding: 0px 80px 0px 80px;
+}
+
+h2 {
+    font-family: "sans-serif";
+    font-size: 20px;
+    padding: 0px 0px 0px 50px;
+    text-transform: uppercase;
+}
+
+
+h4 {
+    font-family: "sans-serif";
+    font-size 22px;
+    display: inline;
+    font-style: italic;
+}
+
+a {
+    color: darkgrey;
+}
+
+p{
+    font-family: "sans-serif";
+    margin: 30px 80px 50px 0px;
+    font-size: 20px;
+}
+
+.work_lists {
+    text-align: left;
+    font-family: "sans-serif";
+    font-size: 20px;
+}
+
+.education_lists{
+    text-align: left;
+    font-family: "sans-serif";
+    font-size: 20px;
+    }
+
+ul {
+    list-style-position: inside;
+    padding: 0;
+    margin: 20px 80px 30px 80px;
+    list-style: none;
+}
+
+
+img {
+    display: block;
+    margin: 65px 186px 65px 125px;    
+}
+
+#profile_image .profile img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav li{
+    display: inline;
+    font-family: "sans-serif";
+    font-size: 20px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+nav li + li{
+    padding-top: 0px;
+    padding-left: 5px;
+    border-left: 1px solid black;
+    border-color: grey;
+}
+
+                    /*<-------------------Footer--------------------->*/
+.footer a{
+    color: black;
+    text-decoration: none;
+    target-name: new;
+    target-new: tab;
+}
+.footer{
+    text-align: center;
+}
