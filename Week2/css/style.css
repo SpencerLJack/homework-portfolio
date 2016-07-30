@@ -1,0 +1,238 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+
+/* Box Model Hack */
+
+* {
+    -moz-box-sizing: border-box;
+    /* Firexfox */
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box;
+    /* IE */
+}
+
+
+/* Clear fix hack */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.alignright {
+    float: right;
+    padding: 0px 0px 10px 10px;
+    /* note the padding around a right floated image */
+}
+
+.alignleft {
+    float: left;
+    padding: 0 10px 10px 0;
+    /* note the padding around a left floated image */
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+/******************************************
+/* 
+
+
+
+
+
+/* Body */
+
+body {
+    width: 1200px;
+    height: 2174px;
+    line-height: 1.4;
+    color: #000;
+    font-family: "open sans";
+    "Helvetica",
+    "Arial",
+    "sans-serif";
+    font-weight: 300;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    margin: 0px 30px 0px 30px;
+    /* fix margin error - should span full width of screen*/
+}
+
+/* Header */
+
+header {
+    width: 1200px;
+    height: 701px;
+    background: url(../images/header_bg.jpg) no-repeat center top rgb(134, 141, 157);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+header h1 {
+    padding: 30px 0px 65px 120px;
+    color: white;
+    text-align: left;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+h2 {
+    margin: 38px 0px 56px 0px;
+    padding: 0px 180px 0px 189px;
+    font-weight: 400;
+    font-size: 47px;
+}
+
+header button {
+    height: 62px;
+    width: 260px;
+    margin: 20px;
+    padding: 10px 0px 12px 0px;
+    border-radius: 8px;
+    background-color: #f9e42e;
+    font-weight: 600;
+    font-size: 29px;
+}
+
+
+/* Benefits Section */
+
+section {
+    padding: 60px 0px 40px 120px;
+    background-color: #f0efef;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+section h3 {
+    font-weight: 600;
+    font-size: 37px;
+}
+
+section p {
+    margin-left: 10px;
+    padding: 20px 0px 40px 0px;
+    font-weight: 100;
+    font-size: 26px;
+}
+
+p span,
+li span {
+    display: block;
+}
+
+section ul {
+    margin: 20px 0px 30px 70px;
+    line-height: 42px;
+    list-style: inside;
+    font-weight: 100;
+    font-size: 27px;
+}
+
+/* Testemonial */
+
+div .testemonial {
+    background: url(../images/testimonial_bg.jpg)no-repeat center top rgb(134, 141, 157);
+    background-size: cover;
+    color: white;
+    font-size: 35px;
+    font-weight:100;
+    padding: 65px 60px 120px 60px;
+    text-align: center;
+}
+
+.testemonial p cite {
+    font-style: italic;
+    /* Make this text more opaque. 
+    opacity: 0.2; <---Doesn't work.
+    */
+}
+
+div .strong {
+    font-weight: bolder;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+footer .container {
+    position: relative;
+    height: 120px;
+    width: 1200px;
+    padding: 40px 0px 40px 0px;
+    background-color: #f9e42e;
+}
+
+footer button {
+    display: center;
+    height: 62px;
+    width: 305px;
+    margin: -10px;
+    border-radius: 8px;
+    background-color: #033048;
+    color: white;
+    font-size: 25px;
+}
+
+footer .footer {
+    position: relative;
+    height: 350px;
+    width: 1200px;
+    background-color: #121212;
+}
+
+footer h1 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #f9e42e;
+    font-weight: 800;
+    font-size: 47px;
+}
+
+footer a {
+    display: inline-block;
+    padding-bottom: 80px;
+    color: white;
+    /* Keep link icons centered but create space between them */
+}
+
+footer a:first-child + a{
+    padding-left: 50px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
