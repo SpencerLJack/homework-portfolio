@@ -1,7 +1,7 @@
 /*
-Project Name: Blank Template
+Project Name: Week 2 Homework Assignment
 Client: Your Client
-Author: Your Name
+Author: Spencer Jack
 Developer @GA in NYC
 */
 
@@ -78,14 +78,17 @@ body {
 }
 
 #container {
-    width: 100%;
-    height: 100%;
+    width: 1200px;
+    height: 2174px;
     margin: 0px 30px 0px 30px;
     /* fix margin error - should span full width of screen*/
 }
 
 /* Header */
-
+html,
+body {
+    height: 100%;
+}
 header {
     width: 1200px;
     height: 701px;
@@ -101,15 +104,17 @@ header h1 {
     padding: 30px 0px 65px 120px;
     color: white;
     text-align: left;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 45px;
+    letter-spacing: 1.1px;
 }
 
 h2 {
     margin: 38px 0px 56px 0px;
     padding: 0px 180px 0px 189px;
     font-weight: 400;
-    font-size: 47px;
+    font-size: 46px;
+    letter-spacing: 1.1px;
 }
 
 header button {
@@ -136,6 +141,7 @@ section {
 section h3 {
     font-weight: 600;
     font-size: 37px;
+    color: #033048;
 }
 
 section p {
@@ -161,24 +167,28 @@ section ul {
 /* Testemonial */
 
 div .testemonial {
+    padding: 65px 60px 70px 60px;
     background: url(../images/testimonial_bg.jpg)no-repeat center top rgb(134, 141, 157);
     background-size: cover;
     color: white;
-    font-size: 35px;
+    font-size: 33px;
     font-weight:100;
-    padding: 65px 60px 120px 60px;
+    letter-spacing: 1px;
     text-align: center;
 }
 
-.testemonial p cite {
+.testemonial p span {
     font-style: italic;
-    /* Make this text more opaque. 
-    opacity: 0.2; <---Doesn't work.
-    */
+    font-weight: 100;
+    opacity: .7;
 }
 
 div .strong {
+    position: static;
+    margin-top: 20px;
     font-weight: bolder;
+    letter-spacing: 1.5px;
+    opacity: .9;
 }
 
 /* Footer */
@@ -190,7 +200,7 @@ footer {
 
 footer .container {
     position: relative;
-    height: 120px;
+    height: 125px;
     width: 1200px;
     padding: 40px 0px 40px 0px;
     background-color: #f9e42e;
@@ -200,31 +210,35 @@ footer button {
     display: center;
     height: 62px;
     width: 305px;
-    margin: -10px;
+    margin: -8px;
     border-radius: 8px;
     background-color: #033048;
     color: white;
     font-size: 25px;
+    font-family:inherit;
+    font-weight: 600;
 }
 
 footer .footer {
-    position: relative;
+    position:relative;
     height: 350px;
     width: 1200px;
     background-color: #121212;
+    opacity: .95;
 }
 
-footer h1 {
-    padding-top: 60px;
-    padding-bottom: 60px;
+footer h4 {
+    padding-top: 55px;
+    padding-bottom: 50px;
     color: #f9e42e;
     font-weight: 800;
     font-size: 47px;
+    letter-spacing: 1.1px;
 }
 
 footer a {
     display: inline-block;
-    padding-bottom: 80px;
+    padding-bottom: 55px;
     color: white;
     /* Keep link icons centered but create space between them */
 }
@@ -233,6 +247,9 @@ footer a:first-child + a{
     padding-left: 50px;
 }
 
+.copyright {
+    margin-bottom: 80px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
