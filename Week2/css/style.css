@@ -85,10 +85,7 @@ body {
 }
 
 /* Header */
-html,
-body {
-    height: 100%;
-}
+
 header {
     width: 1200px;
     height: 701px;
@@ -215,7 +212,7 @@ footer button {
     background-color: #033048;
     color: white;
     font-size: 25px;
-    font-family:inherit;
+    font-family: inherit;
     font-weight: 600;
 }
 
@@ -240,7 +237,6 @@ footer a {
     display: inline-block;
     padding-bottom: 55px;
     color: white;
-    /* Keep link icons centered but create space between them */
 }
 
 footer a:first-child + a{
