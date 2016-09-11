@@ -1,0 +1,232 @@
+/*
+Project Name: Contact Page - Stylesheet
+Client: Your Client
+Author: Spencer Jack
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.clear {
+  clear: both;
+}
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+a {
+  text-decoration: none;
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html{
+    font-size: 14px;
+}
+body {
+  color: #f0efef;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300; 
+}
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.logo {
+  font-size: 2.6em;
+  font-weight: 800;
+  margin-left: 0.75rem;
+  padding-bottom: 2rem;
+}
+header {
+  height: 70px;
+  background: #033048;
+  margin: 0;
+  padding-top: 0.65rem;
+  overflow: hidden;
+}
+header .logo {
+  color: #fff;
+  float: left;
+}
+header nav {
+  float: right;
+  margin-top: 1.15rem;
+}
+header nav ul li {
+  display: inline-block;
+  padding-right: 1.6rem;
+  font-size: 1.3em;
+  font-weight:100;
+}
+header nav ul li a {
+  color: #f9e42e;
+}
+/*-----------------end header-----------------*/
+.top{
+    margin: 0 auto;
+    padding: 1% 0; 
+    width: 100%;
+    height: auto;
+}
+h2{
+    margin-top: 1.4%;
+    font-size: 1.8em;
+    text-align: center;
+    color: #000;
+}
+h3{
+    margin-top: 0.9%;
+    font-size: 1.2em;
+    text-align: center;
+    color: #000;
+}
+.main{
+    margin: 0;
+    padding: 1%;
+    border: 1px solid grey;
+    background-color: lightgray;
+}
+h4{
+    margin: 3% 0 0 2%;
+    font-size: 1.3em;
+    text-align:left;
+    text-transform: uppercase;
+    color: #000;
+}
+form{
+    margin: 5% 0 0 1%;
+}
+LABEL{
+    font-size: 1.6em;
+    color: #000;
+}
+#userName, #email, #psWd{
+    display: block;
+    line-height: 1.8;  
+}
+label[for="customer"]{
+    margin-top: 3%;
+    text-align: center;
+    display: block;
+    color: #000;
+}
+h4{
+    margin: 0 0 0 0;
+    font-size: 1.3em;
+    text-align:left;
+    text-transform: uppercase;
+    color: #000;
+}
+#submit{
+    margin-top: 10%;
+    margin-bottom: 15%;
+    margin-left: 29%;
+    margin-right: 29%;
+    padding: 0 0;
+    width: 40%;
+    height: 25%;
+    background-color: dodgerblue;
+    font-size: 22px;
+    line-height: 1.8;
+    text-align: center;
+    border-radius: .5em;
+    box-shadow: 2px solid gray;
+}
+#yourOutputsDiv{
+    margin-top: 3%;
+    width: 100%;
+    height: auto;
+    font-size: 2.8em;
+    text-align: center;
+    color: #000;
+}
+.error{
+    border: 1.5px solid red;
+}
+/*---------rules applied to desktop version--------*/
+@media only screen and (min-width: 768px){
+    body{
+        color:#f0efef;
+    }
+    header{
+        height: 117px;
+        }
+    .logo{
+        margin-left: 0.12rem;
+        font-size: 3.45em;
+        margin-top: 1.16rem;
+    }
+    header nav {
+        float: right;
+        margin-top: 2.45rem;
+    }
+    header nav ul li {
+        margin-left: 2.85rem;
+        display: inline-block;
+        padding-right: 0;
+        font-size: 1.7em;
+        font-weight:100;
+    }
+    h1{
+        font-size: 3.5em;
+    }
+    .main{
+        margin: 0 11% 0 11%;
+        padding: 0 1% 0 1%;
+        border: 1px solid grey;
+    }
+    h3{
+        font-size: 1.4em;
+        margin: 2% 0 1.5% 0%;
+    }
+    h4{
+        margin: 5.1% 0 0 0.9%;
+    }
+    #userName, #email, #psWd{
+        display: block;
+        line-height: 2.4;
+        width: 30%;
+    }
+   label[for="customer"]{
+        display:inline-block; 
+        margin-bottom: 3%;
+        margin-left:10%;
+        margin-right:10%;
+        padding: 0 auto;
+    }
+    #submit{
+        margin-top: 5%;
+        margin-bottom: 10%;
+        margin-left: 29%;
+        margin-right: 29%;
+    }    
+    .main{
+        margin-bottom:20%;
+    }
+}
